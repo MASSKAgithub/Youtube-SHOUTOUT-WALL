@@ -36,7 +36,7 @@ If you want help or report a bug: https://discord.gg/BREsBq6fNQ
 - Navigate to the server folder like in the **Installation** part and run: `node index.js` (it will run index.js where is the main script)
 - Open index.html in a browser (it work perfectly on Chrome and Firefox I tested :=D) so here you can see there is the number of channels
   which you have put in config.js you can modify it theyr but don't forget to restart your scripts ! (close cmd and open it again navigate and run like before)
-- For add somebody on the wall you must open on a browser: localhost/add?id=hereid you replace *hereid* by the id of the channel which you want
+- For add somebody on the wall you must open on a browser: localhost/add?id=hereid you replace *hereid* by the id of the channel which you want to add
   and it will be added on the index.html tab.
   
 ### Hosting
