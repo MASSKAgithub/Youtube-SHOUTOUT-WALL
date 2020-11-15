@@ -31,6 +31,13 @@ If you want help or report a bug: https://discord.gg/BREsBq6fNQ
 3. Start scripts
 
 - For check if everything is ok you need to run it in local first then we will host it on glitch.com
+- Navigate to the server folder like in the **Installation** part and run: `node index.js` (it will run index.js where is the main script)
+- Open index.html in a browser (it work perfectly on Chrome and Firefox I tested :=D) so here you can see there is the number of channels
+  which you have put in config.js you can modify it theyr but don't forget to restart your scripts ! (close cmd and open it again navigate and run like before)
+- For add somebody on the wall you must open on a browser: localhost/add?id=hereid you replace *hereid* by the id of the channel which you want
+  and it will be added on the index.html tab.
+  
+### Hosting
 
 > It's a simple shoutout wall which is with a back end (server) so you need to host it separatly from your front end scripts.
 > All scripts in "server" folder with config.js need to be hosted on glitch or other node app hoster which will run `server.js` there is the main program.
