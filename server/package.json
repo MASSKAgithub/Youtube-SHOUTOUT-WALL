@@ -4,7 +4,7 @@
   "description": "A free youtube shoutout wall made by MASSKA",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "author": "MASSKA",
   "license": "ISC",
