@@ -13,12 +13,10 @@ window.onload = function() {
     setInterval(() => {
         $.getJSON(config.websiteUrl+"/channels", (data) => {
             data = JSON.parse(data);
-            console.log(data);
             for(let i = 0; i < data.length; i++) {
                 $("#channel_"+i+" .name").html(newName(data[i].name));
                 $("#channel_"+i+" .subscribers").html(data[i].subscribers);
                 $("#channel_"+i+" .logo").attr("src", data[i].logo);
-                console.log(i)
             }
         });
     }, 3000);
