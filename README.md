@@ -49,7 +49,9 @@ If you want help or report a bug: https://discord.gg/BREsBq6fNQ
 
 2. Install
 
-- ...
+- Go to glitch then New project > hello-express
+- You'll see there is a lot of files delete everything
+- Drag and drop every file which is in server folder
 
 
 
