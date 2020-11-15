@@ -2,9 +2,9 @@ const fs = require("fs");
 const express = require("express");
 const app = express();
 const axios = require("axios");
-const CHANNELS_FILE = "./data/channels.json";
-const LOG_FILE = "./data/logs.txt";
-const CONFIG_FILE = "../config.js";
+const CHANNELS_FILE = "./channels.json";
+const LOG_FILE = "./logs.txt";
+const CONFIG_FILE = "./config.js";
 var port = 80;
 
 start(port);
