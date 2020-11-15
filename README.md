@@ -6,7 +6,7 @@ If you want help or report a bug: https://discord.gg/BREsBq6fNQ
 
 ##Installation, configuration and hosting
 
-###Installation
+### Installation
 
 1. Install node.js and all packages
 
@@ -15,7 +15,7 @@ If you want help or report a bug: https://discord.gg/BREsBq6fNQ
 - Open cmd and navigate to your script folder with this command: `cd replacebytheserverfolderpath`.
 - Run: `npm install` if you did all things ok it will work, for any help come on my discord: https://discord.gg/BREsBq6fNQ.
 
-###Configuration
+### Configuration
 
 1. Creating a youtube token
 
