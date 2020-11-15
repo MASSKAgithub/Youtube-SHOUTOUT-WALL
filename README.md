@@ -3,7 +3,7 @@
 A simple to use Shoutout Wall for Youtube.
 
 > It's a simple shoutout wall which is with a back end (server) so you need to host it separatly from your front end scripts.
-> All scripts in "server" folder with config.js need to be hosted on glitch or other node app hoster.
+> All scripts in "server" folder with config.js need to be hosted on glitch or other node app hoster which will run `server.js` there is the main program.
 
 Don't forget to create a youtube api token on: https://console.developers.google.com/apis/library
 
