@@ -30,8 +30,6 @@ app.get('/add', (req, res) => {
         if(isHere(userId, users)) {
           message = config.wasAddedMessage;
         } else {
-          console.log(userId);
-          console.log(config.googleApiToken);
           axios.get("https://www.googleapis.com/youtube/v3/channels?part=snippet%2Cstatistics&id="+userId+"&key="+config.googleApiToken).then((res) => {
             let user = {
               id: userId,
@@ -39,7 +37,6 @@ app.get('/add', (req, res) => {
               subscribers: res.data.items[0].statistics.subscriberCount,
               logo: res.data.items[0].snippet.thumbnails.default.url,
             }
-            console.log(user);
             users.unshift(user);
             let ecart = users.length - config.channelsNumber;
             if(ecart > 0) {
