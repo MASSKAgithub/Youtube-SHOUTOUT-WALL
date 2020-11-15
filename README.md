@@ -4,9 +4,6 @@ A simple to use Shoutout Wall for Youtube.
 
 If you want help or report a bug: https://discord.gg/BREsBq6fNQ
 
-> It's a simple shoutout wall which is with a back end (server) so you need to host it separatly from your front end scripts.
-> All scripts in "server" folder with config.js need to be hosted on glitch or other node app hoster which will run `server.js` there is the main program.
-
 ## Installation, configuration and hosting
 
 ### Installation
