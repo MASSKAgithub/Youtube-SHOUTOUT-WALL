@@ -4,6 +4,9 @@ A simple to use Shoutout Wall for Youtube.
 
 If you want help or report a bug: https://discord.gg/BREsBq6fNQ
 
+> It's a simple shoutout wall which is with a back end (server) so you need to host it separatly from your front end scripts.
+> All scripts in "server" folder with config.js need to be hosted on glitch or other node app hoster which will run `server.js` there is the main program.
+
 ## Installation, configuration and hosting
 
 ### Installation
@@ -41,15 +44,18 @@ If you want help or report a bug: https://discord.gg/BREsBq6fNQ
   
 ### Hosting
 
+> We will host it on netlify and glitch because it's ez pez to do it
 
-> It's a simple shoutout wall which is with a back end (server) so you need to host it separatly from your front end scripts.
-> All scripts in "server" folder with config.js need to be hosted on glitch or other node app hoster which will run `server.js` there is the main program.
+1. Create an account on glitch and netlify
 
-Don't forget to create a youtube api token on: https://console.developers.google.com/apis/library
+- So the first part is go to https://glitch.com/ and create an account same with https://www.netlify.com/
 
-The other part so: "website scripts" folder with index.html must be hosted on a webhoster like 000webhost.
+2. Install
 
-Also if you want to run it from your pc you need to install modules so need to have node.js and run `npm install` in server folder.
+- ...
+
+
+
 
 Hope you'll enjoy !
 
