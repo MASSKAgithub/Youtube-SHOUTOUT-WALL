@@ -51,8 +51,9 @@ If you want help or report a bug: https://discord.gg/BREsBq6fNQ
 
 - Go to glitch then New project > hello-express
 - You'll see there is a lot of files delete everything
-- Drag and drop every file which is in server folder
-wait I don't finished it pls let me time for write it
+- Drag and drop every file one by on on glitch which are in server folder (don't do that for node_modules folder and don't do also for package-lock.json)
+- be sure glitch installed all modules and go to config.js file and replace `http://localhost` by the *Live App* share link of glitch (share button in glitch project)
+
 
 
 
