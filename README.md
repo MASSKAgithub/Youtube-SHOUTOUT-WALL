@@ -9,7 +9,7 @@ If you want help or report a bug: https://discord.gg/BREsBq6fNQ
 ### Installation
 
 
-1. Install node.js and all packages
+#### Install node.js and all packages
 
 - Install all files of the Youtube Shoutout Wall on your pc.
 - Go to https://nodejs.org/ and install the last version for your pc (if you haven't did that before).
@@ -19,18 +19,18 @@ If you want help or report a bug: https://discord.gg/BREsBq6fNQ
 ### Configuration
 
 
-1. Creating a youtube token
+#### Creating a youtube token
 
 - Create a google api token (youtube api v3) on https://console.developers.google.com/apis/library.
 - Go to config.js file and put instead of xxx your token (this is a private key so **NEVER** put it in public).
 > the result will be: "Tkau12oijzlhuhn131" (it's not a reall token it's just an example)
 
-2. Configure the config.js
+#### Configure the config.js
 
 - So in config.js you can set (almost)everything like messages of adding a user or error message,
   also you can choose to log data about added user in a file or in the console.
   
-3. Start scripts
+#### Start scripts
 
 - For check if everything is ok you need to run it in local first then we will host it on glitch.com
 - Navigate to the server folder like in the **Installation** part and run: `node index.js` (it will run index.js where is the main script)
@@ -43,11 +43,11 @@ If you want help or report a bug: https://discord.gg/BREsBq6fNQ
 
 > We will host it on glitch
 
-1. Create an account on glitch
+#### Create an account on glitch
 
 - So the first part is go to https://glitch.com/
 
-2. Install
+#### Install
 
 - Go to glitch then New project > hello-express
 - You'll see there is a lot of files delete everything
