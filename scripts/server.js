@@ -106,7 +106,7 @@ function start(port) {
     users[i] = channels[i];
   }
   app.listen(port, () => {
-    console.log(`Shoutout is running on ${config.websiteUrl}:${port}`);
+    console.log(`Shoutout is running on ${process.env.PROJECT_DOMAIN ? "https://"+process.env.PROJECT_DOMAIN+".glitch.me" : "http://localhost"}:${port}`);
   });
   if(users.length < config.channelsNumber) {
     while(users.length !== config.channelsNumber) {
