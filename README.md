@@ -52,7 +52,7 @@ If you want help or report a bug: https://discord.gg/BREsBq6fNQ
 - Go to glitch then New project > hello-express
 - You'll see there is a lot of files delete everything
 > Don't forget to put the project private or everyone will have your token.
-> I'm not responsable if somebody get your token.
+> I'm not responsable if somebody get your token. (you can also put your token in a global variable)
 - Drag and drop every file one by one on glitch (or it will crash) which are in the *server* folder (don't do that for node_modules folder and don't do also for package-lock.json if you have them)
 
 And everything should work !
