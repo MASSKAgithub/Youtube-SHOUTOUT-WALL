@@ -66,5 +66,7 @@ If you need some help or want to report a bug come on my discord:
 https://discord.gg/BREsBq6fNQ
 
 release v1.0
+
 All scripts are made by MASSKA
+
 Discord: MASSKA#4698
