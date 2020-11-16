@@ -1,5 +1,5 @@
 window.onload = function() {
-    $.getJSON(config.websiteUrl+"/channels", (data) => {
+    $.getJSON("/channels", (data) => {
         data = JSON.parse(data);
         for(let i = 0; i < data.length; i++) {
             if(data[i].id) {
@@ -11,7 +11,7 @@ window.onload = function() {
         }
     });
     setInterval(() => {
-        $.getJSON(config.websiteUrl+"/channels", (data) => {
+        $.getJSON("/channels", (data) => {
             data = JSON.parse(data);
             for(let i = 0; i < data.length; i++) {
                 if(data[i].id) {
