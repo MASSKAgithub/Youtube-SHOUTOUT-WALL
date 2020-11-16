@@ -4,7 +4,7 @@ A simple to use Shoutout Wall for Youtube.
 
 If you want help or report a bug: https://discord.gg/BREsBq6fNQ
 
-## Installation, configuration, hosting and youtube configuration
+## Installation, configuration, hosting & youtube configuration
 
 ### Installation
 
