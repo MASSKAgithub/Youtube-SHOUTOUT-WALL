@@ -1,3 +1,6 @@
+// All scripts are made by masska
+// Visit it on github: https://github.com/MASSKAgithub/Youtube-SHOUTOUT-WALL
+
 const fs = require("fs");
 const express = require("express");
 const app = express();
@@ -5,9 +8,31 @@ const axios = require("axios");
 const CHANNELS_FILE = "./channels.json";
 const LOG_FILE = "./logs.txt";
 const CONFIG_FILE = "./config.js";
-var port = 80;
+
+
+if(process.env.PORT) {
+  var port = process.env.PORT;
+} else {
+  var port = 80;
+}
 
 start(port);
+
+app.get('/config.js', function(req, res) {
+  res.sendFile(__dirname + "/" + "config.js");
+});
+
+app.get('/index.js', function(req, res) {
+  res.sendFile(__dirname + "/" + "index.js");
+});
+
+app.get('/style.css', function(req, res) {
+  res.sendFile(__dirname + "/" + "style.css");
+});
+
+app.get('/', function(req, res) {
+    res.sendFile('index.html', {root: __dirname});
+});
 
 app.get("/channels", (req, res) => {
   res.append('Access-Control-Allow-Origin', ['*']);
@@ -48,6 +73,7 @@ app.get('/add', (req, res) => {
               addLog("user: " + user.name + "("+user.id+") " + config.addMessage + " " + genNewDate(), config);
             });
           }).catch((err) => {
+            message = config.errorMessage;
             console.log(err);
           });
         }
@@ -73,13 +99,20 @@ function update(users, callback) {
 }
 function start(port) {
   eval(fs.readFileSync(CONFIG_FILE, 'utf-8'));
-  let channels = JSON.parse(fs.readFileSync(CHANNELS_FILE, 'utf-8'));
+  if(config.googleApiToken === "xxx") {
+    console.log("PLEASE PUT A GOOGLE API TOKEN IN config.js WHY YOU DON'T READ THE DOCUMENTATION ? !!!");
+  }
+  let js = fs.readFileSync(CHANNELS_FILE, 'utf-8');
+  if(typeof js != "object") {
+    js = "[]";
+  }
+  let channels = JSON.parse(js);
   let users = [];
   for(let i = 0; i < channels.length; i++) {
     users[i] = channels[i];
   }
   app.listen(port, () => {
-    console.log(`Shoutout is running on http://localhost:${port}`);
+    console.log(`Shoutout is running on ${config.websiteUrl}:${port}`);
   });
   if(users.length < config.channelsNumber) {
     while(users.length !== config.channelsNumber) {
@@ -90,7 +123,9 @@ function start(port) {
       users.pop();
     }
   }
-  update(users);
+  if(typeof users === "object") {
+    update(users);
+  }
   addLog("=== New starting at " + genNewDate(), config);
 }
 function genNewDate() {
@@ -122,3 +157,5 @@ function isHere(search, array) {
   }
   return false;
 }
+// All scripts are made by masska
+// Visit it on github: https://github.com/MASSKAgithub/Youtube-SHOUTOUT-WALL

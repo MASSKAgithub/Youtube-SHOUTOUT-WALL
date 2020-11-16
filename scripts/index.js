@@ -14,9 +14,11 @@ window.onload = function() {
         $.getJSON(config.websiteUrl+"/channels", (data) => {
             data = JSON.parse(data);
             for(let i = 0; i < data.length; i++) {
-                $("#channel_"+i+" .name").html(newName(data[i].name));
-                $("#channel_"+i+" .subscribers").html(data[i].subscribers);
-                $("#channel_"+i+" .logo").attr("src", data[i].logo);
+                if(data[i].id) {
+                    $("#channel_"+i+" .name").html(newName(data[i].name));
+                    $("#channel_"+i+" .subscribers").html(data[i].subscribers);
+                    $("#channel_"+i+" .logo").attr("src", data[i].logo);
+                }
             }
         });
     }, 3000);

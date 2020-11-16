@@ -1,5 +1,6 @@
 //All scripts are made by MASSKA
 //Discord: MASSKA#4698
+//Github: https://github.com/MASSKAgithub/Youtube-SHOUTOUT-WALL
 
 var config = {
     addMessage: "has been successfully added on the wall !", //message when a user is added
