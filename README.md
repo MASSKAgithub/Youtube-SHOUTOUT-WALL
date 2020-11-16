@@ -31,7 +31,7 @@ If you want help or report a bug: https://discord.gg/BREsBq6fNQ
   also you can choose to log data about added user in a file or in the console.
   
 #### Start scripts
-
+ > this part is optional if you don't want don't run it on your pc and go to the **Hosting** part
 - For check if everything is ok you need to run it in local first then we will host it on glitch.com
 - Navigate to the server folder like in the **Installation** part and run: `node index.js` (it will run index.js where is the main script)
 - Open index.html in a browser (it work perfectly on Chrome and Firefox I tested :=D) so here you can see there is the number of channels
