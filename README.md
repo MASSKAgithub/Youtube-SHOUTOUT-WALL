@@ -1,5 +1,7 @@
 # Youtube-SHOUTOUT-WALL
 
+Not finished pls let me finish it
+
 A simple to use Shoutout Wall for Youtube.
 
 If you want help or report a bug: https://discord.gg/BREsBq6fNQ
