@@ -1,7 +1,5 @@
 # Youtube-SHOUTOUT-WALL
 
-**Not finished pls let me finish it**
-
 A simple to use Shoutout Wall for Youtube.
 
 If you want help or report a bug: https://discord.gg/BREsBq6fNQ
@@ -43,21 +41,20 @@ If you want help or report a bug: https://discord.gg/BREsBq6fNQ
   
 ### Hosting
 
-> We will host it on netlify and glitch because it's ez pez to do it
+> We will host it on glitch
 
-1. Create an account on glitch and netlify
+1. Create an account on glitch
 
-- So the first part is go to https://glitch.com/ and create an account same with https://www.netlify.com/
+- So the first part is go to https://glitch.com/
 
 2. Install
 
 - Go to glitch then New project > hello-express
 - You'll see there is a lot of files delete everything
-- Drag and drop every file one by on on glitch which are in server folder (don't do that for node_modules folder and don't do also for package-lock.json)
-- be sure glitch installed all modules and go to config.js file and replace `http://localhost` by the *Live App* share link of glitch (share button in glitch project)
+- Drag and drop every file one by on on glitch which are in server folder (don't do that for node_modules folder and don't do also for package-lock.json if you have them)
+- be sure glitch has installed all modules and go to config.js file and replace `http://localhost` by the *Live App* share link of glitch (share button in glitch project)
 
-
-
+And everything should work !
 
 
 Hope you'll enjoy !
@@ -68,5 +65,6 @@ http://paypal.me/masska
 If you need some help or want to report a bug come on my discord:
 https://discord.gg/BREsBq6fNQ
 
+release v1.0
 All scripts are made by MASSKA
 Discord: MASSKA#4698
