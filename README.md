@@ -37,7 +37,7 @@ If you want help or report a bug: https://discord.gg/BREsBq6fNQ
 - Open index.html in a browser (it work perfectly on Chrome and Firefox I tested :=D) so here you can see there is the number of channels
   which you have put in config.js you can modify it theyr but don't forget to restart your scripts ! (close cmd and open it again navigate and run like before)
 - For add somebody on the wall you must open on a browser: localhost/add?id=hereid you replace *hereid* by the id of the channel which you want to add
-  and it will be added on the index.html tab.
+  and it will be added on the main part tab (http://localhost/ on your pc).
   
 ### Hosting
 
@@ -51,8 +51,8 @@ If you want help or report a bug: https://discord.gg/BREsBq6fNQ
 
 - Go to glitch then New project > hello-express
 - You'll see there is a lot of files delete everything
-> Don't forget to put the project private or everyone will have your token
-> I'm not responsable if somebody get your token
+> Don't forget to put the project private or everyone will have your token.
+> I'm not responsable if somebody get your token.
 - Drag and drop every file one by one on glitch (or it will crash) which are in the *server* folder (don't do that for node_modules folder and don't do also for package-lock.json if you have them)
 
 And everything should work !
