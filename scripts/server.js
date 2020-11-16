@@ -8,13 +8,7 @@ const axios = require("axios");
 const CHANNELS_FILE = "./channels.json";
 const LOG_FILE = "./logs.txt";
 const CONFIG_FILE = "./config.js";
-
-
-if(process.env.PORT) {
-  var port = process.env.PORT;
-} else {
-  var port = 80;
-}
+var port = process.env.PORT ? process.env.PORT : 80;
 
 start(port);
 
