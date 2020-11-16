@@ -4,7 +4,7 @@ A simple to use Shoutout Wall for Youtube.
 
 If you want help or report a bug: https://discord.gg/BREsBq6fNQ
 
-## Installation, configuration and hosting
+## Installation, configuration, hosting & set it on youtube
 
 ### Installation
 
@@ -37,7 +37,7 @@ If you want help or report a bug: https://discord.gg/BREsBq6fNQ
 - Open index.html in a browser (it work perfectly on Chrome and Firefox I tested :=D) so here you can see there is the number of channels
   which you have put in config.js you can modify it theyr but don't forget to restart your scripts ! (close cmd and open it again navigate and run like before)
 - For add somebody on the wall you must open on a browser: localhost/add?id=hereid you replace *hereid* by the id of the channel which you want to add
-  and it will be added on the index.html tab.
+  and it will be added on the main part tab (http://localhost/ on your pc).
   
 ### Hosting
 
@@ -51,11 +51,27 @@ If you want help or report a bug: https://discord.gg/BREsBq6fNQ
 
 - Go to glitch then New project > hello-express
 - You'll see there is a lot of files delete everything
+> Don't forget to put the project private or everyone will have your token.
+> I'm not responsable if somebody get your token.
 - Drag and drop every file one by one on glitch (or it will crash) which are in the *server* folder (don't do that for node_modules folder and don't do also for package-lock.json if you have them)
-- be sure glitch has installed all modules and go to config.js file and replace `http://localhost` by the *Live App* share link of glitch (share button in glitch project)
 
 And everything should work !
 
+### Nightbot installation
+
+- So for make it working on youtube we need to use nightbot.
+
+#### Configure nightbot
+
+- Go to http://nightbot.tv/ and create an account with your google account on which is your youtube channel.
+- Then there is a menu on the left of your screen go to Commands > Custom  and Add a new command the command name will be !wall or something like that put what you want.
+- Now we need to add a message which nightbot will send when the command will be detected, nightbot will go to our link and it will be automatically add the user id on the wall.
+- The command is: `$(urlfetch yourGlitchShareUrl/add?id=$(userid))` You need to replace yourGlitchShareUrl by your glitch project url without `/` at the end, the url will be like: https://myprojectname.glitch.me (it's an example)
+
+
+And everything will work ! (Put me a star pls I worked hard on this project)
+
+Want a shoutout Wall for Twitch ? I'll make it soon and put on my github page !
 
 Hope you'll enjoy !
 

@@ -10,7 +10,7 @@ var config = {
     logDataInConsole: true, //boolean must be true or false for log added users on the wall in console
     logDataInFile: true, //also a boolean log data in the logs.txt file which is in data folder
     channelsNumber: 5, //the number of channels which can be on the wall
-    websiteUrl: process.env.PROJECT_DOMAIN ? "https://"+process.env.PROJECT_DOMAIN+".glitch.me" : "http://localhost", //You must host scripts in the "server" folder on a node app hoster like glitch and put the url of your hosting scripts instead of "http://localhost"
+    websiteUrl: process.env.PROJECT_DOMAIN ? "https://"+process.env.PROJECT_DOMAIN+".glitch.me" : "http://localhost", //Automatically add your url here
     googleApiToken: "xxx", //Replace xxx by your google api token (youtube api v3) you can find it here: https://console.developers.google.com/apis/library
 };
 
