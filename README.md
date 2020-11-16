@@ -66,7 +66,7 @@ And everything should work !
 - Go to http://nightbot.tv/ and create an account with your google account on which is your youtube channel.
 - Then there is a menu on the left of your screen go to Commands > Custom  and Add a new command the command name will be !wall or something like that put what you want.
 - Now we need to add a message which nightbot will send when the command will be detected, nightbot will go to our link and it will be automatically add the user id on the wall.
-- The command is: `$(urlfetch yourGlitchShareUrl/add?id=$(userid))` You need to replace yourGlitchShareUrl by your glitch project url without `/` at the end, the url will be like: https://myprojectname.glitch.me (it's an example)
+- The command is: `$(urlfetch yourGlitchShareUrl/add?id=$(userid))` You need to replace yourGlitchShareUrl by your glitch project url without `/` at the end, it will be like: `$(urlfetch https://myprojectname.glitch.me/add?id=$(userid))` (it doesn't work, it's an example)
 
 
 And everything will work ! (Put me a star pls I worked hard on this project)
