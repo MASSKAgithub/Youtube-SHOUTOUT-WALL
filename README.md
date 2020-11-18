@@ -68,6 +68,10 @@ And everything should work !
 - Now we need to add a message which nightbot will send when the command will be detected, nightbot will go to our link and it will be automatically add the user id on the wall.
 - The command is: `$(urlfetch yourGlitchShareUrl/add?id=$(userid))` You need to replace yourGlitchShareUrl by your glitch project url without `/` at the end, it will be like: `$(urlfetch https://myprojectname.glitch.me/add?id=$(userid))` (it doesn't work, it's an example)
 
+#### Configure OBS
+
+- Put your project share link in obs where you can see the users and it's done !
+
 
 And everything will work ! (Put me a star pls I worked hard on this project)
 
