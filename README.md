@@ -89,4 +89,4 @@ release v1.0
 
 All scripts are made by MASSKA
 
-Discord: MASSKA#4698
+Discord: MASSKA#7619
