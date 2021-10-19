@@ -82,11 +82,10 @@ Hope you'll enjoy !
 Donate me:
 http://paypal.me/masska
 
-If you need some help or want to report a bug come on my discord:
-https://discord.gg/BREsBq6fNQ
-
 release v1.0
 
 All scripts are made by MASSKA
 
 Discord: MASSKA#7619
+
+There willn't be new releases, that project is abandonned, but it remains working.
