@@ -35,7 +35,7 @@ app.get("/channels", (req, res) => {
 });
 
 app.get('/add', (req, res) => {
-  eval(fs.readFileSync(CONFIG_FILE, 'utf-8')); //load the config.js file in a global variable
+  eval(fs.readFileSync(CONFIG_FILE, 'utf-8')); //load the config.js file
   let message = config.addMessage;
   try {
     let userId = req.query.id;
